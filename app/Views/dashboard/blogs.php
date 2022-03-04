@@ -320,7 +320,8 @@
                         </div> -->
                         <!-- Example DataTable for Dashboard Demo-->
                         <div class="card mb-4">
-                            <div class="card-header">Blogs</div>
+                        <div class="card-header">Blogs</div>
+                        <a href="<?= base_url('xdashboard/create');?>" class="btn btn-info d-none d-lg-block m-l-15 float-right"><i class="fa fa-plus-circle"></i> Tambah Berita</a>
                             <div class="card-body">
                                 <div class="datatable">
                                     <table class="table table-bordered table-hover" id="dataTable" width="100%" cellspacing="0">

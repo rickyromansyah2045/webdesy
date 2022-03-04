@@ -42,6 +42,7 @@ $routes->get('/xlogin/do_logout', 'Login::do_logout');
 $routes->get('/xlogin', 'Login::index');
 $routes->get('/xlogin/register', 'Login::do_register');
 $routes->get('/xdashboard', 'Xdashboard::index');
+$routes->get('/xdashboard/create', 'Xdashboard::create');
 $routes->get('/blogs', 'Xdashboard::blogs');
 
 /*

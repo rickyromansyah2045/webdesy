@@ -23,4 +23,12 @@ class Xdashboard extends BaseController
 
         return view('dashboard/blogs', $data);
     }
+
+    public function create() 
+    {
+        $data['title']  = 'Create Blogs';
+        $data['blogs']   = $this->blogModel->get_blog_all();
+
+        return view('dashboard/create', $data);
+    }
 }
